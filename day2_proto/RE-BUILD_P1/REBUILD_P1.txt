@@ -1,0 +1,260 @@
+==========================================
+REBUILD P1 - quick copy and paste exercise
+==========================================
+
+
+
+
+---------------------------------------------------------------------
+STEP 1: copy  html5 skeleton into INDEX.HTML (inside body tag)
+---------------------------------------------------------------------
+<div id="wrapper">
+    <header>
+    </header>
+
+    <main>
+    </main>
+
+    <footer>
+    </footer>
+</div><!--/wrapper-->
+
+
+
+
+
+----------------------------------------------------------------------------
+STEP 2: add css reset code at the top of STYLE.CSS (copy from css_reset.css)
+----------------------------------------------------------------------------
+
+
+
+
+--------------------------------------------------------------------------------------------------------
+STEP 3: add a title and connect style.css to index.html using a link tag in INDEX.HTML (inside head tag)
+--------------------------------------------------------------------------------------------------------
+<title>TrainingDragon Project 1 | The Art Of Origami</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
+
+
+
+
+
+
+
+
+------------------------------------
+STEP 4: general section in STYLE.CSS
+------------------------------------
+
+/*  GENERAL SECTION  */
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 960px;
+    margin: 0px auto;
+
+}
+
+/*apply this class after multiple floating element to prevent the float "bug" */
+.clearFix{
+    clear: both;
+}
+
+
+
+
+
+
+
+---------------------------------------------------
+STEP 5: add content into html HEADER in INDEX.HTML
+---------------------------------------------------
+
+<div class="container">
+    <div id="logo">
+        <a href="index.html">
+            <img src="imgs/logo.jpg" width="297" height="370" alt="logo"/>
+        </a>
+    </div><!--/logo-->
+
+    <div id="banner">
+        <img src="imgs/rhino.png" width="960" height="400" alt="rhino"/>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="gallery.html">gallery</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">news</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">contacts</a></li>
+        </ul>
+
+        <div class="clearFix"></div>
+    </nav><!--/nav-->
+</div><!--/header container-->
+
+
+
+
+
+
+
+--------------------------------------------------
+STEP 6: style header in STYLE.CSS (header section)
+--------------------------------------------------
+
+/*  HEADER SECTION  */
+header{
+    background-color: #F0F0F0;
+}
+
+#logo{
+    text-align: center;
+}
+
+#banner{
+    margin-top: -180px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #9D1C6C;
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 10px 0px;
+    text-transform: capitalize;
+    float: left;
+}
+/*
+elem:hover  => style elements while we hover over them
+elem:active => style elements while holding left mouse btn down
+*/
+nav a:hover{
+    background-color: white;
+    color: #9D1C6C;
+}
+nav a:active{
+    text-decoration: underline;
+}
+
+
+
+
+--------------------------------------------
+STEP 7: add content into MAIN in INDEX.HTML
+--------------------------------------------
+<div class="container">
+
+    <h1 class="underlined">The art of origami</h1>
+
+    <img id="beetlePic" src="imgs/stag-beetle.jpg" width="301" height="253" alt="stag beetle"/>
+    <p>
+        Origami (??? from ori meaning "folding", and kami meaning "paper"; kami changes to gami due to rendaku) is the traditional Japanese art of paper folding, which started in the 17th century AD at the latest and was popularized outside of Japan in the mid-1900s. It has since then evolved into a modern art form. The goal of this art is to transform a flat sheet of material into a finished sculpture through folding and sculpting techniques, and as such the use of cuts or glue are not considered to be origami. Paper cutting and gluing is usually considered kirigami.
+    </p>
+    <p>
+        The number of basic origami folds is small, but they can be combined in a variety of ways to make intricate designs. The best known origami model is probably the Japanese paper crane. In general, these designs begin with a square sheet of paper whose sides may be different colors or prints. Traditional Japanese origami, which has been practiced since the Edo era (1603–1867), has often been less strict about these conventions, sometimes cutting the paper or using nonsquare shapes to start with.
+        The principles of origami are also being used in stents, packaging and other engineering structures.
+        There is much speculation about the origin of Origami.
+    </p>
+    <p>
+        While Japan seems to have had the most extensive tradition, there is evidence of an independent tradition of paperfolding in China, as well as in Germany, Italy and Spain among other places. However, because of the problems associated with preserving origami, there is very little direct evidence of its age or origins, aside from references in published material.
+        In China, traditional funerals include burning folded paper, most often representations of gold nuggets (yuanbao). It is not known when this practice started, but it seems to have become popular during the Sung Dynasty (905–1125 CE). The paper folding has typically been of objects like dishes, hats or boats rather than animals or flowers.
+    </p>
+
+
+    <h2 class="underlined">Types of origami</h2>
+    <p>
+        Origami not only covers still-life, there are also moving objects; Origami can move in clever ways. Action origami includes origami that flies, requires inflation to complete, or, when complete, uses the kinetic energy of a person's hands, applied at a certain region on the model, to move another flap or limb. Some argue that, strictly speaking, only the latter is really "recognized" as action origami. Action origami, first appearing with the traditional Japanese flapping bird, is quite common. One example is Robert Lang's instrumentalists; when the figures' heads are pulled away from their bodies, their hands will move, resembling the playing of music.
+    </p>
+
+    <h2 class="underlined">Modular origami</h2>
+
+    <p>
+        Modular origami consists of putting a number of similar pieces together to form a complete model. Normally the individual pieces are simple but the final assembly may be tricky. Many of the modular origami models are decorative balls like kusudama, the technique differs though in that kusudama allows the pieces to be put together using thread or glue.
+        Chinese paper folding includes a style called 3D origami where large numbers of pieces are put together to make elaborate models. Sometimes paper money is used for the modules. This style originated from some Chinese refugees while they were detained in America and is also called Golden Venture folding from the ship they came on.
+    </p>
+</div><!--/main container-->
+
+
+-----------------------------------------------
+STEP 8: style #main in STYLE.CSS (main section)
+-----------------------------------------------
+
+
+/*  MAIN SECTION */
+main .underlined{
+    border-bottom: 2px dotted #CDDA23;
+}
+
+#beetlePic{
+    float: right;
+}
+
+main h1{
+    font-size: 36px;
+    color: #9D1C6C;
+    margin-top: 90px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+
+main h2{
+    font-size: 28px;
+    color: #999;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+
+main p{
+    color: #333;
+    word-spacing: .9px;
+    letter-spacing: .4px;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+-------------------------------------------
+STEP 9: add content to FOOTER (INDEX.HTML)
+-------------------------------------------
+
+<div class="container">TrainingDragon &copy; 2015</div>
+
+
+
+
+
+
+----------------------------------------------------
+STEP 10: style FOOTER in STYLE.CSS (FOOTER SECTION)
+----------------------------------------------------
+
+
+/*=============================== FOOTER SECTION ====== */
+footer{
+    margin-top: 30px;
+    padding: 50px 0 150px;
+    background-color: #CDDA23;
+    color: white;
+}
+
+
+
+
