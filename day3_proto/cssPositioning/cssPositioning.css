@@ -33,14 +33,18 @@ p{
 
 
 /*CSS POSITIONING:
-		*STATIC:	as a default ALL elements have position: static [all except HTML] 
-		
-		*RELATIVE
-				- the element is still in the document flow
-				- other elements will still see it and its original position
-				- its original opsition will be preserved
-				- you can position the element in reference to its ORIGINAL POSITION
-				- you can use top, left, right, bottom [+ / -]
+*STATIC:
+as a default ALL elements have position:
+	static [all except HTML]
+
+*RELATIVE
+- the element is still in the document flow
+- other elements will still see it and its
+	original position
+- its original position will be preserved
+- you can position the element in reference
+	to its ORIGINAL POSITION
+- you can use top, left, right, bottom [+ / -]
 */
 
 
@@ -61,11 +65,11 @@ p{
 
 
 /*
-	POSITION ABSOLUTE:
-			- the element is not in the flow anymore
-			- other elements and its container cannot see it
-			- its original position is gone
-			- you move it in reference to ITS FIRST NON-STATIC ANCESTOR
+POSITION ABSOLUTE:
+- the element is not in the flow anymore
+- other elements and its container cannot see it
+- its original position is gone
+- you move it in reference to ITS FIRST NON-STATIC ANCESTOR
 
 */
 
@@ -92,10 +96,10 @@ p{
 
 
 /*position: FIXED:
-	- the element is outside of the flow
-	- its original position is lost
-	- the element will move in reference to HTML
-	- the element will stay there and it will not scroll
+- the element is outside of the flow
+- its original position is lost
+- the element will move in reference to HTML
+- the element will stay there and it will not scroll
 */
 
 
@@ -111,12 +115,14 @@ p{
 
 
 /*
-	Z-INDEX:
-	
-	- you can simulate the third dimension
-	- you can create something similar to photoshop layers
-	- it will only work with non static elements
-	- the element with the bigger z-index will appear on top of smaller z-indexed values
+Z-INDEX:
+
+- you can simulate the third dimension
+- you can create something similar to
+	photoshop layers
+- it will only work with non static elements
+- the element with the bigger z-index
+	will appear on top of smaller z-indexed values
 */
 
 
