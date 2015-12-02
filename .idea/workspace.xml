@@ -2,6 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27dbbb8e-8a22-4677-991d-f63adf28bd24" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/imgs/Banner_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/imgs/Banner_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/imgs/Banner_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/imgs/TD.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/imgs/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/imgs/bread1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/imgs/bread2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/imgs/bread3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/imgs/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/imgs/fixed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/imgs/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/imgs/paper-bag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/imgs/video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/imgs/visual/p3_mockup.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/imgs/yellow-bullet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/css/p1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/p3_to_complete/js/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day2_proto/html5_skeleton.html" afterPath="$PROJECT_DIR$/day2_proto/helpers/html5_skeleton.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/css/p1.css" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/css/p1.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/imgs/Banner_01.jpg" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/imgs/Banner_01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/imgs/Banner_02.jpg" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/imgs/Banner_02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/imgs/Banner_03.jpg" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/imgs/Banner_03.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/imgs/TD.png" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/imgs/TD.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/imgs/arrow.png" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/imgs/arrow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/imgs/bread1.png" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/imgs/bread1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/imgs/bread2.png" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/imgs/bread2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/imgs/bread3.png" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/imgs/bread3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/imgs/favicon.ico" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/imgs/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/imgs/fixed.png" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/imgs/fixed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/imgs/logo.png" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/imgs/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/imgs/paper-bag.png" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/imgs/paper-bag.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/imgs/video.png" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/imgs/video.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/imgs/visual/p3_mockup.jpg" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/imgs/visual/p3_mockup.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/imgs/yellow-bullet.png" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/imgs/yellow-bullet.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/index.html" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/day3_proto/p3_to_complete/js/main.js" afterPath="$PROJECT_DIR$/day4_proto/p3_to_complete/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_homework/HOMEWORK_DAY1.html" afterPath="$PROJECT_DIR$/_homework/HOMEWORK_DAY1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day1_proto/__learn_HTML/learnHTML.html" afterPath="$PROJECT_DIR$/day1_proto/__learn_HTML/learnHTML.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day3_proto/cssPositioning/cssPositioning.css" afterPath="$PROJECT_DIR$/day3_proto/cssPositioning/cssPositioning.css" />
     </list>
     <ignored path="td-wd.iws" />
@@ -23,11 +63,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cssPositioning.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cssPositioning.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day3_proto/cssPositioning/cssPositioning.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.97561">
-              <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
+            <state vertical-scroll-proportion="-48.96552">
+              <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -42,6 +92,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/day3_proto/cssPositioning/cssPositioning.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -110,25 +161,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="day3_proto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="td-wd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="td-wd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="day3_proto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cssPositioning" />
+              <option name="myItemId" value="day2_proto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -140,8 +173,57 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="27dbbb8e-8a22-4677-991d-f63adf28bd24" name="Default" comment="" />
@@ -153,14 +235,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="14" width="1353" height="823" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24942966" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850942" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -173,6 +255,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -183,8 +273,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/day3_proto/cssPositioning/cssPositioning.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.97561">
-          <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
+        <state vertical-scroll-proportion="-48.96552">
+          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>

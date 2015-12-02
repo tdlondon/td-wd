@@ -34,16 +34,16 @@ p{
 
 /*CSS POSITIONING:
 *STATIC:
-as a default ALL elements have
-    position: static [all except HTML]
+as a default ALL elements have position:
+	static [all except HTML]
 
 *RELATIVE
 - the element is still in the document flow
-- other elements will still see it
-    and its original position
-- its original opsition will be preserved
+- other elements will still see it and its
+	original position
+- its original position will be preserved
 - you can position the element in reference
-    to its ORIGINAL POSITION
+	to its ORIGINAL POSITION
 - you can use top, left, right, bottom [+ / -]
 */
 
@@ -99,8 +99,12 @@ POSITION ABSOLUTE:
 - the element is outside of the flow
 - its original position is lost
 - the element will move in reference to HTML
+<<<<<<< HEAD
 - the element will stay there and it
     will not scroll
+=======
+- the element will stay there and it will not scroll
+>>>>>>> 0f243811988d2f5694aa5f7c12d70c510c289a47
 */
 
 
@@ -116,12 +120,14 @@ POSITION ABSOLUTE:
 
 
 /*
-	Z-INDEX:
-	
-	- you can simulate the third dimension
-	- you can create something similar to photoshop layers
-	- it will only work with non static elements
-	- the element with the bigger z-index will appear on top of smaller z-indexed values
+Z-INDEX:
+
+- you can simulate the third dimension
+- you can create something similar to
+	photoshop layers
+- it will only work with non static elements
+- the element with the bigger z-index
+	will appear on top of smaller z-indexed values
 */
 
 
