@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>TrainingDragon | Web Design</title>
+        <link rel="shortcut icon" type="image/x-icon" href="http://www.coursemixer.com/favicon.ico">
+		<meta name="description" content="TD Web Design">
+		<meta name="author" content="Emiliano Fantasia, Fanaimi , TrainingDragon">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+        <!--custom TD css-->
+        <link rel="stylesheet" href="css/td.css">
+
+        <!--to PDF print:
+        ?print-pdf#
+        -->
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+                    <h2>Training Dragon</h2>
+					<h1>Web Design</h1>
+					<h3>Trainer: Emiliano</h3>
+				</section><!--/page-->
+
+                <section>
+                    <h1>forms</h1>
+                    <ul>
+                        <li>what is a form</li>
+                        <li>form tag</li>
+                        <li>fieldsets</li>
+                        <li>input tags</li>
+                        <li>radio buttons</li>
+                        <li>checkboxes</li>
+                        <li>drop down menus</li>
+                        <li>textareas</li>
+                        <li>buttons</li>
+                        <li>submitting forms</li>
+                    </ul>
+                </section><!--/page-->
+
+                <section>
+                    <section>
+                        <h2>what is a form</h2>
+                        <ul>
+                            <li class="fragment">interface to collect data</li>
+                            <li class="fragment">allows users to provide data</li>
+                            <li class="fragment">data is then sent to the server</li>
+                            <li class="fragment">forms are everywhere, you use them to login,<br>
+                                register, buy products and much more</li>
+                            <li class="fragment">forms contain elements paired with labels and grouped by fieldsets</li>
+                        </ul>
+                    </section>
+                </section><!--/what is a form-->
+
+                <section>
+                    <section>
+                        <h2>form tag</h2>
+                        <ul>
+                            <li class="fragment">contains form elements</li>
+                            <li class="fragment">has a <strong>name</strong></li>
+                            <li class="fragment"><strong>action</strong> specifies the script that will handle data</li>
+                            <li class="fragment"><strong>method</strong> sets how data will be sent (get / post)</li>
+                        </ul>
+                    </section>
+
+                    <section>
+<pre><code data-trim>
+&lt;form name="myForm" action="path/to/server-side/script.php" method="get">
+    ...
+&lt;/form>
+</code></pre>
+                        <ul>
+                            <li class="fragment"><strong>DEMO:</strong> an empty form is not visible</li>
+                        </ul>
+                    </section>
+                </section><!--/form tag-->
+
+                <section>
+                    <section>
+                        <h2>fieldsets</h2>
+                        <ul>
+                            <li class="fragment">are used to group form elements</li>
+                            <li class="fragment">appear outlined in light grey</li>
+                            <li class="fragment">can be described by <strong>legend</strong> tags</li>
+                        </ul>
+                    </section>
+
+                    <section>
+<pre><code data-trim>
+&lt;form name="myForm" action="path/to/server-side/script.php" method="get">
+    &lt;fieldset>
+        &lt;legend>fieldset description&lt;/legend>
+    &lt;/fieldset>
+
+    &lt;fieldset>
+        &lt;legend>fieldset description&lt;/legend>
+    &lt;/fieldset>
+&lt;/form>
+</code></pre>
+                        <ul>
+                            <li class="fragment"><strong>DEMO:</strong> a form with fieldsets and legends</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <form name="myForm" action="path/to/server-side/script.php" method="get">
+                            <fieldset style="border:1px solid #666">
+                                <legend style="font-size: 18px;text-align:left"> legend</legend>
+                                <p>something inside a fieldset</p>
+                            </fieldset>
+
+                            <fieldset style="border:1px solid #666">
+                                <legend style="font-size: 18px;text-align:left"> legend</legend>
+                                <p>something inside a fieldset</p>
+                            </fieldset>
+                        </form>
+                    </section>
+
+                </section><!--/fieldsets-->
+
+                <section>
+                    <section>
+                        <h2>input tags</h2>
+                        <ul>
+                            <li class="fragment">paired and described by <strong>labels</strong></li>
+                            <li class="fragment">inline elements</li>
+                            <li class="fragment">do not need closing tags</li>
+                            <li class="fragment">identified by a <strong>name</strong></li>
+                            <li class="fragment">collect a <strong>value</strong></li>
+                            <li class="fragment">can be described by a <strong>placeholder</strong> (html5)</li>
+                            <li class="fragment">defined by a <strong>type</strong>: text, password, number, date, radio etc..</li>
+                        </ul>
+                    </section>
+
+                    <section>
+<pre><code data-trim contenteditable>
+&lt;form name="myForm" action="path/to/server-side/script.php" method="get">
+    &lt;fieldset>
+        &lt;legend>fieldset description&lt;/legend>
+        &lt;div>
+            &lt;label>role of the input field&lt;/label>
+            &lt;input type="text" name="field" placeholder="format" value=""/>
+        &lt;/div>
+    &lt;/fieldset>
+&lt;/form>
+</code></pre>
+                        <ul>
+                            <li class="fragment"><strong>DEMO:</strong> text and password fields</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <form name="myForm" action="path/to/server-side/script.php" method="get">
+                            <fieldset>
+                                <legend>fieldset description</legend>
+                                <div>
+                                    <label>label</label><br/>
+                                    <input type="text" name="field" placeholder="format" value=""/>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </section>
+                </section><!--/input tags-->
+
+                <section>
+                    <section>
+                        <h2>radio buttons</h2>
+                        <ul>
+                            <li class="fragment"><strong>input</strong> tags with <strong>radio</strong> type</li>
+                            <li class="fragment">can be turned on or off </li>
+                            <li class="fragment">belong to a group</li>
+                            <li class="fragment">selecting one will turn other radio buttons of the same group off</li>
+                            <li class="fragment">have a <strong>name</strong>, a <strong>value </strong></li>
+                            <li class="fragment">connected radio buttons need the same <strong>name</strong></li>
+                            <li class="fragment">we need text outside checkboxes to describe them</li>
+                            <li class="fragment">can be <strong>disabled</strong> or checked</li>
+                        </ul>
+                    </section>
+
+                    <section>
+<pre><code data-trim contenteditable>
+&lt;form name="myForm" action="path/to/server-side/script.php" method="get">
+    &lt;fieldset>
+    &lt;legend>radio buttons&lt;/legend>
+    &lt;div>
+        &lt;label>select A or C&lt;/label>&lt;br>
+        &lt;input type="radio" checked name="letter" value="A"/> A &lt;br>
+        &lt;input type="radio" disabled name="letter" value="B"/> B &lt;br>
+        &lt;input type="radio" name="letter" value="C"/> C
+    &lt;/div>
+    &lt;/fieldset>
+&lt;/form>
+</code></pre>
+                        <ul>
+                            <li class="fragment"><strong>DEMO:</strong> two radio buttons to select only one letter</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <form name="myForm" action="path/to/server-side/script.php" method="get">
+                            <fieldset>
+                                <legend>radio buttons</legend>
+                                <div>
+                                    <input type="radio" checked name="letter" value="A"/> A <br>
+                                    <input type="radio" disabled name="letter" value="B"/> B <br>
+                                    <input type="radio" name="letter" value="C"/> C
+                                </div>
+                            </fieldset>
+                        </form>
+                    </section>
+                </section><!--/radio buttons-->
+
+                <section>
+                    <section>
+                        <h2>checkboxes</h2>
+                        <ul>
+                            <li class="fragment"><strong>input</strong> tags with <strong>checkbox</strong> type</li>
+                            <li class="fragment">can be turned on or off</li>
+                            <li class="fragment">belong to a group</li>
+                            <li class="fragment">users can select more than one options</li>
+                            <li class="fragment">have a <strong>name</strong>, a <strong>value </strong></li>
+                            <li class="fragment">connected checkboxes need the same <strong>name</strong></li>
+                            <li class="fragment">we need text outside radio buttons to describe them</li>
+                            <li class="fragment">can be <strong>disabled</strong> or checked</li>
+                        </ul>
+                    </section>
+
+                    <section>
+
+<pre><code data-trim contenteditable>
+&lt;form name="myForm" action="path/to/server-side/script.php" method="get">
+    &lt;fieldset>
+        &lt;legend>checkboxes&lt;/legend>
+        &lt;div>
+            &lt;label>select one or more letters out of a list&lt;/label>&lt;br>
+            &lt;input type="checkbox" checked name="letter" value="A"/> A &lt;br>
+            &lt;input type="checkbox" disabled name="letter" value="B"/> B &lt;br>
+            &lt;input type="checkbox" name="letter" value="C"/> C &lt;br>
+        &lt;/div>
+    &lt;/fieldset>
+&lt;/form>
+</code></pre>
+                        <ul>
+                            <li class="fragment"><strong>DEMO:</strong>selecting one or more letters</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <form name="myForm" action="path/to/server-side/script.php" method="get">
+                            <fieldset>
+                                <legend>checkboxes</legend>
+                                <div>
+                                    <label>select one or more letters out of a list</label><br>
+                                    <input type="checkbox" checked name="letter" value="A"/> A <br>
+                                    <input type="checkbox" disabled name="letter" value="B"/> B <br>
+                                    <input type="checkbox" name="letter" value="C"/> C <br>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </section>
+                </section><!--/checkboxes-->
+
+                <section>
+                    <section>
+                        <h2>drop down menus</h2>
+                        <ul>
+                            <li class="fragment">collapsible lists of options</li>
+                            <li class="fragment"><strong>option</strong> tags within <strong>select</strong></li>
+                            <li class="fragment">can be <strong>disabled</strong> or <strong>selected</strong></li>
+                            <li class="fragment">select tags have <strong>names</strong>, options have <strong>values</strong></li>
+                            <li class="fragment">can use <strong>multiple</strong> attribute to allow multiple selection</li>
+                        </ul>
+                    </section>
+
+                    <section>
+
+<pre><code data-trim contenteditable>
+&lt;form name="myForm" action="path/to/server-side/script.php" method="get">
+    &lt;fieldset>
+    &lt;legend>drop down menus&lt;/legend>
+        &lt;div>
+        &lt;label>select letters from a drop down menu&lt;/label>&lt;br>
+        &lt;select name="letters" multiple>
+            &lt;option selected value="A">A&lt;/option>
+            &lt;option disabled value="B">B&lt;/option>
+            &lt;option value="C">C&lt;/option>
+            &lt;option value="D">D&lt;/option>
+            &lt;option value="E">E&lt;/option>
+        &lt;/select>
+        &lt;/div>
+    &lt;/fieldset>
+&lt;/form>
+</code></pre>
+
+                        <ul>
+                            <li class="fragment"><strong>DEMO:</strong>drop down menu with or without <strong>multiple</strong>
+                            attribute</li>
+                        </ul>
+                    </section>
+
+                    <section>
+
+                        <form name="myForm" action="path/to/server-side/script.php" method="get">
+                            <fieldset>
+                                <legend>drop down menus</legend>
+                                <div>
+                                    <label>select multiple letters from a drop down menu with <strong>multiple</strong></label><br>
+                                    <select style="width: 200px;padding:5px;" name="letters" multiple>
+                                        <option selected value="A">A</option>
+                                        <option disabled value="B">B</option>
+                                        <option value="C">C</option>
+                                        <option value="D">D</option>
+                                        <option value="E">E</option>
+                                    </select>
+                                </div>
+                            </fieldset>
+
+                        </form>
+                        <br>
+                        <form name="myForm" action="path/to/server-side/script.php" method="get">
+                            <fieldset>
+                                <legend>drop down menus</legend>
+                                <div>
+                                    <label>select one letters from a drop down menu</label><br>
+                                    <select style="width: 200px;padding:5px;" name="letters">
+                                        <option selected value="A">A</option>
+                                        <option disabled value="B">B</option>
+                                        <option value="C">C</option>
+                                        <option value="D">D</option>
+                                        <option value="E">E</option>
+                                    </select>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </section>
+                </section><!--/drop down menus-->
+
+                <section>
+
+                    <section>
+                        <h2>textareas</h2>
+                        <ul>
+                            <li class="fragment">element to collect longer texts</li>
+                            <li class="fragment">have a <strong>name</strong> but no <strong>value</strong></li>
+                            <li class="fragment">can have a <strong>placeholder</strong></li>
+                            <li class="fragment">values are collected in between <strong>textarea</strong> tags</li>
+                            <li class="fragment">used to collect messages, email texts, comments etc..</li>
+                        </ul>
+                    </section>
+
+                    <section>
+
+<pre><code data-trim contenteditable>
+&lt;form name="myForm" action="path/to/server-side/script.php" method="get">
+    &lt;fieldset>
+    &lt;legend>textarea&lt;/legend>
+    &lt;div>
+        &lt;label>write here your comment&lt;/label>&lt;br>
+        &lt;textarea name="comment"
+            placeholder="your comment here...">&lt;/textarea>
+    &lt;/div>
+    &lt;/fieldset>
+&lt;/form>
+</code></pre>
+
+                        <ul>
+                            <li class="fragment"><strong>DEMO:</strong> textarea</li>
+                        </ul>
+                    </section>
+
+                    <section>
+
+                        <form name="myForm" action="path/to/server-side/script.php" method="get">
+                            <fieldset>
+                                <legend>textarea</legend>
+                                <div>
+                                    <label>write here your comment</label><br>
+        <textarea name="comment" cols="50" rows="10"
+                  placeholder="your comment here..."></textarea>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </section>
+                </section><!--/textareas-->
+
+                <section>
+                    <section>
+                        <h2>buttons</h2>
+                        <ul>
+                            <li class="fragment">clickable inline level elements to trigger a response or submit forms</li>
+                            <li class="fragment">can be <strong>input</strong> tags with <strong>button</strong> type</li>
+                            <li class="fragment">can be <strong>button</strong> tags with
+                                <strong>submit</strong>, <strong>reset</strong>, <strong>button</strong> type</li>
+                            <li class="fragment">can be <strong>disabled</strong></li>
+                        </ul>
+                    </section>
+
+
+                    <section>
+
+<pre><code data-trim contenteditable>
+&lt;form name="myForm" action="path/to/server-side/script.php" method="get">
+    &lt;fieldset>
+    &lt;legend>buttons&lt;/legend>
+    &lt;div>
+        &lt;button type="reset">clears form&lt;/button>&lt;br>
+        &lt;button type="submit">submits form&lt;/button>&lt;br>
+        &lt;button type="button">general button&lt;/button>&lt;br>
+        &lt;input type="button" value="general button" disabled/>
+    &lt;/div>
+    &lt;/fieldset>
+&lt;/form>
+</code></pre>
+
+                        <ul>
+                            <li class="fragment"><strong>DEMO:</strong> buttons</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <form name="myForm" action="path/to/server-side/script.php" method="get">
+                            <fieldset>
+                                <legend>buttons</legend>
+                                <div>
+                                    <button type="reset">clears form</button><br>
+                                    <button type="submit">submits form</button><br>
+                                    <button type="button">general button</button><br>
+                                    <input type="button" value="disabled button" disabled/>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </section>
+                </section><!--/buttons-->
+
+
+                <section>
+                    <section>
+                        <h2>form methods and submitting forms</h2>
+                        <ul>
+                            <li class="fragment">most common form methods are <strong>get</strong> and <strong>post</strong></li>
+                            <li class="fragment">data is collected as <strong>key-value</strong> pairs</li>
+                            <li class="fragment">get generates a <strong>query string</strong> after page url, post does not</li>
+                            <li class="fragment">query strings will have <strong>?name=value&name2=value2</strong> structure</li>
+                            <li class="fragment">query strings will expose form data in url bar, do not use
+                                <strong>get</strong> for sensitive information</li>
+                            <li class="fragment">form data is sent to the value of <strong>action</strong> attribute</li>
+                        </ul>
+                    </section>
+
+
+                    <section>
+
+<pre><code data-trim contenteditable>
+&lt;form name="myForm" action="path/to/server-side/script.php" method="get">
+    &lt;fieldset>
+    &lt;legend>submitting forms&lt;/legend>
+    &lt;div>
+        &lt;input type="text" name="key" value="what you typed in this field"/>
+        &lt;button type="submit">submits form&lt;/button>&lt;br>
+    &lt;/div>
+    &lt;/fieldset>
+&lt;/form>
+</code></pre>
+
+                        <ul>
+                            <li class="fragment"><strong>DEMO:</strong> submitting form with <strong>get</strong> and <strong>post</strong></li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <form name="myForm" action="#" method="get">
+                            <fieldset>
+                                <legend>submitting a form with GET method</legend>
+                                <div>
+                                    <input type="text" name="key" value="what you typed in this field"/>
+                                    <button type="submit">submits form</button><br>
+                                </div>
+                            </fieldset>
+                        </form><br>
+                        <hr>
+                        <br>
+                        <form name="myForm" action="#" method="post">
+                            <fieldset>
+                                <legend>submitting a form with POST method</legend>
+                                <div>
+                                    <input type="text" name="key" value="what you typed in this field"/>
+                                    <button type="submit">submits form</button><br>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </section>
+                </section><!--/submitting forms-->
+
+
+
+
+
+
+                <section id="themes">
+                    <h2>Themes</h2>
+                    <p>
+                        <a href="?#/themes">Default</a> |
+                        <a href="?theme=sky#/themes">Sky</a> |
+                        <a href="?theme=beige#/themes">Beige</a> |
+                        <a href="?theme=simple#/themes">Simple</a> |
+                        <a href="?theme=serif#/themes">Serif</a> |
+                        <a href="?theme=night#/themes">Night</a> |
+                        <a href="?theme=moon#/themes">Moon</a> |
+                        <a href="?theme=solarized#/themes">Solarized</a>
+                    </p>
+                </section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
