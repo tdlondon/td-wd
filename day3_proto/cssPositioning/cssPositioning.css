@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @charset "utf-8";
 /* CSS Document */
 
@@ -71,7 +70,7 @@ POSITION ABSOLUTE:
 - other elements and its container cannot see it
 - its original position is gone
 - you move it in reference to ITS FIRST NON-STATIC ANCESTOR
-
+- if there's no positioned ancestor, the reference is the viewport
 */
 
 
@@ -99,11 +98,27 @@ POSITION ABSOLUTE:
 /*position: FIXED:
 - the element is outside of the flow
 - its original position is lost
-- the element will move in reference to HTML
+- the element will move in reference to the viewport
 - the element will stay there and it will not scroll
 */
 
 
+
+
+
+
+
+
+
+
+
+/*position: STICKY:
+- the element starts with a relative position
+- after a certain scrolling position, the element turns into
+	fixed
+- still not universally supported
+- the element will stay there and it will not scroll
+*/
 
 
 
@@ -146,157 +161,19 @@ Z-INDEX:
 
 
 
-=======
-@charset "utf-8";
-/* CSS Document */
 
 
-#wrapper{
-	width:600px;
-	margin:40px auto;
-	border:1px dashed red;
-}
 
-.clearFix{
-	clear:both;
-}
 
-.col{
-	border:1px solid #000;
-	width:250px;
-	float:left;
-	margin:20px;
-}
 
 
-#col1{
-	
-}
 
 
-p{
-	border:1px solid #000;
-	width:100px;
-	margin:10px;
-}
 
 
-/*CSS POSITIONING:
-*STATIC:
-as a default ALL elements have position:
-	static [all except HTML]
 
-*RELATIVE
-- the element is still in the document flow
-- other elements will still see it and its
-	original position
-- its original position will be preserved
-- you can position the element in reference
-	to its ORIGINAL POSITION
-- you can use top, left, right, bottom [+ / -]
-*/
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-POSITION ABSOLUTE:
-- the element is not in the flow anymore
-- other elements and its container cannot see it
-- its original position is gone
-- you move it in reference to
-    ITS FIRST NON-STATIC ANCESTOR
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*position: FIXED:
-- the element is outside of the flow
-- its original position is lost
-- the element will move in reference to HTML
-<<<<<<< HEAD
-- the element will stay there and it
-    will not scroll
-=======
-- the element will stay there and it will not scroll
->>>>>>> 0f243811988d2f5694aa5f7c12d70c510c289a47
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-Z-INDEX:
-
-- you can simulate the third dimension
-- you can create something similar to
-	photoshop layers
-- it will only work with non static elements
-- the element with the bigger z-index
-	will appear on top of smaller z-indexed values
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> 3df1d53a1e0786ce61386b23ba56028d2c57c33a

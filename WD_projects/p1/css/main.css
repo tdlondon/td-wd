@@ -67,7 +67,7 @@ header{
     margin-top:-180px;
 }
 
-
+/* FLOAT VERSION
 nav a{
     display: block;
     background-color: #9F146D;
@@ -78,7 +78,38 @@ nav a{
     width: 160px;
     padding: 10px 0;
     float: left;
+}*/
+
+/*NAV FLEXBOX VERSION */
+nav ul{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;  /* | inline flex*/
+
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #9F146D;
+
 }
+
+
+nav a{
+    display: block;
+    background-color: #9F146D;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+
 
 /*
 PSEUDO CLASSES
@@ -136,28 +167,42 @@ main p{
 }
 
 /*====================================== GALLERY SECTION ===========*/
+.inner{width: 94%;}
 .galleryHolder{
     /*background-color: red;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
+.galleryHolder img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1em;
+}
 
+/*
 .galleryHolder img{
     float: left;
     margin-right:  6.6666667px;
     margin-bottom: 6.6666667px;
     box-shadow: 3px 3px 3px #333;
-    /* css3 rounded corners */
+    !* css3 rounded corners *!
     border-radius:10px;
-}
+}*/
 
 /*.galleryHolder .noMargin{
     margin-right: 0;
 }*/
 
+/*
 
 .galleryHolder img:nth-child(4n){
     margin-right: 0;
 }
+*/
 
 
 
